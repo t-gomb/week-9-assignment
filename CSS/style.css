@@ -1,3 +1,10 @@
+
+*{
+    margin:0px;
+    padding:0px;
+    font-family:sans-serif;
+}
+
 .container {
     display: grid;
     grid-template-rows: 5rem 1fr 5rem;
@@ -6,7 +13,7 @@
         'h h h'
         's m m'
         's f f';
-    gap: 5px;
+    gap: 0px;
     width: 100vw;
     height: 100vh;
 }
@@ -14,6 +21,9 @@
 .header{
     grid-area: h;
     background-color: #59546d;
+    PADDING: 10px 10px;
+    text-align: right;
+
 }
 
 .top {
@@ -22,6 +32,10 @@
     list-style-type: none;
     display: flex;
     flex-direction: row;
+}
+li a {
+    text-align: right;
+    
 }
 
 ul a {
@@ -34,4 +48,24 @@ ul a {
 
 ul a:hover {
     background-color: #2a273f;
+    
 }
+
+.sidebar {
+    grid-area: s;
+    background-color: #59546d;
+    padding: 20px 20px;
+    text-align: left;
+}
+
+
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+
