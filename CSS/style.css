@@ -12,7 +12,7 @@
     grid-template-areas:
         'h h h'
         's m m'
-        's f f';
+        'f f f';
     gap: 0px;
     width: 100vw;
     height: 100vh;
@@ -22,8 +22,7 @@
     grid-area: h;
     background-color: #59546d;
     PADDING: 10px 10px;
-    text-align: right;
-
+    text-align: left;
 }
 
 .top {
@@ -70,3 +69,13 @@ ul a:hover {
     padding: 50px 35px;
 }
 
+footer {
+    grid-area: f;
+    text-align: center;
+    background-color: #59546d;
+    padding: 20px 15px;
+}
+
+footer p {
+    color: #e0def4;
+}
