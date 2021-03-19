@@ -69,6 +69,11 @@ ul a:hover {
     padding: 0px 0px;
 }
 
+.newnote {
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
 footer {
     grid-area: f;
     text-align: center;
@@ -107,3 +112,13 @@ footer p {
     margin-left: 35px;
 }
 
+@media screen and (min-width: 401px) and (max-width: 999px) {
+    div { background-color: #59546d;
+    font-size: 15px;}
+    ul a { font-size: 15px}
+}
+@media screen and (min-width: 1000px) {
+    div { background-color: #e0def4;
+    font-size: 20px; }
+    ul a { font-size: 20px}
+}
