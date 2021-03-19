@@ -7,12 +7,6 @@
     </head>
 
 <link rel="stylesheet" href="CSS/style.css">
-
-
-
-
-
-
 <body>
     <div class = "container">
         <nav class = "header">
@@ -21,16 +15,25 @@
             <li><a href="docs.html">Docs</a></li>
             </ul>
         </nav>
-
-        <div class = "notebox">
-            
-            <textarea class="notes" name="notes"
-                rows="45" cols="120">
+        <div class="main">
+            <div class="addbutton">
+                <button name="addnote">
+                    ADDNOTE
+                </button>
+            </div>
+            <div class = "notebox">
+                <textarea class="notes" name="notes"
+                rows="35" cols="100">
             Please type here.
-            </textarea>
+                </textarea>
+                <div class="note-buttons">
+                    <button name="save">save</button>
+                    <button name="delete">delete</button>
+                </div>
+            </div>
         </div>
         <div class="sidebar">
-            <button class="close" type="button">
+            <button name="close">
                 Click to close
             </button>
             <nav class="side">
@@ -40,4 +43,5 @@
                 </ul>
             </nav>
         </div>
-    </div> 
+    </div>
+</body>

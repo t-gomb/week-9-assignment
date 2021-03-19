@@ -67,8 +67,8 @@ ul a:hover {
 
 .main {
     grid-area: m;
-    background-color: #2a273f;
-    padding: 50px 35px;
+    background-color: #e0def4;
+    padding: 0px 0px;
 }
 
 footer {
@@ -84,7 +84,9 @@ footer p {
 
 .notebox {
     grid-area: m;
-    padding: 35px 80px;
+    margin-top: -70px;
+    margin-left: 20px;
+    padding: 55px 90px;
     background-color: #e0def4;
 }
 .side > ul a {
@@ -94,3 +96,18 @@ footer p {
     font-size: 18px;
 
 }
+
+.note-buttons {
+    margin-top: 5px;
+    text-align: right;
+    padding-right: 220px;
+    padding-top: 10px;
+}
+
+.addbutton {
+    margin-top: 60px;
+    margin-left: 35px;
+
+
+}
+
