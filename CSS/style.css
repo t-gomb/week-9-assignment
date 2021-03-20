@@ -112,13 +112,13 @@ footer p {
     margin-left: 35px;
 }
 
-@media screen and (min-width: 401px) and (max-width: 999px) {
+@media screen and (min-width: 1px) and (max-width: 599px) {
     div { background-color: #59546d;
     font-size: 15px;}
     ul a { font-size: 15px}
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 600px) {
     div { background-color: #e0def4;
     font-size: 20px; }
     ul a { font-size: 20px}
